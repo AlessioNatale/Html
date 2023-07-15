@@ -45,7 +45,7 @@
       </div>
       <div>
         <label for="form-cc">Credit card number</label>
-        <input id="form-cc" name="cc" type="text" required/>
+        <input id="form-cc" name="cc" type="text" pattern="[0-9]+" maxlength="16" required/>
         <label for="form-cvc">CVC</label>
         <input id="form-cvc" name="cvc" type="text" pattern="[0-9]+" maxlength="3" required/>
         <label for="form-exp">Expiration date</label>
